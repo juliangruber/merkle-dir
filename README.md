@@ -1,4 +1,3 @@
-
 # merkle-dir
 
 Create [merkle trees](http://en.wikipedia.org/wiki/Merkle_tree) from directories.
@@ -74,7 +73,7 @@ Nodes have those keys:
 
 ## TODO
 
-* turn file nodes into trees with a meta hash and a content hash
+* hash file names and stat data too
 * handle links
 
 ## Installation
