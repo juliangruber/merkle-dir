@@ -1,8 +1,8 @@
 var fs = require('fs');
 var once = require('once');
 var join = require('path').join;
+var relative = require('path').relative;
 var crypto = require('crypto');
-var path = require('path');
 
 module.exports = Merkle;
 
@@ -24,7 +24,7 @@ function Merkle(dir, root, fn) {
     files.sort().forEach(function(filename) {
       var filepath = join(dir, filename);
       var entry = {
-        path: path.relative(root, path.join(dir, filename))
+        path: relative(root, filepath)
       };
       entries.push(entry);
 
