@@ -85,5 +85,3 @@ function hashFile(filepath, fn) {
     .on('error', fn);
 }
 
-if (!module.parent) {
-}
