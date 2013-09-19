@@ -75,6 +75,7 @@ Nodes have those keys:
 ## TODO
 
 * turn file nodes into trees with a meta hash and a content hash
+* handle links
 
 ## Installation
 
