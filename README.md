@@ -3,6 +3,8 @@
 
 Create [merkle trees](http://en.wikipedia.org/wiki/Merkle_tree) from directories.
 
+[![build status](https://secure.travis-ci.org/juliangruber/merkle-dir.png)](http://travis-ci.org/juliangruber/merkle-dir)
+
 ## Example
 
 Let's create a merkle tree from the `test/fixtures` folder:
