@@ -71,6 +71,13 @@ Nodes have those keys:
 * `hash`: the hex encoded `sha256` hash of the file or its subtree
 * `tree`: the subtree, exists only if the node is a *directory*
 
+## Use cases
+
+* **hash an entire directory**: If you just use `tree.hash` you get the hash
+of an entire directory and all its folders and subdirectories.
+* **diff directories**: Traverse the directory breadth-first to quickly find
+out what files differ, in `O(|V| + |E|)` time.
+
 ## TODO
 
 * hash file names and stat data too
