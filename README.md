@@ -80,9 +80,9 @@ out what files differ, in `O(|V| + |E|)` time.
 
 ## TODO
 
-* hash file names and stat data too
-* handle links
-* move to a binary tree? depends on diffing algorithm
+* what to hash with file nodes([#1](https://github.com/juliangruber/merkle-dir/issues/1))
+* handle links ([#2](https://github.com/juliangruber/merkle-dir/issues/2))
+* move to a binary tree? depends on diffing algorithm ([#3](https://github.com/juliangruber/merkle-dir/issues/3))
 
 ## Installation
 
