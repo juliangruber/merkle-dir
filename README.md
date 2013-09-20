@@ -82,6 +82,7 @@ out what files differ, in `O(|V| + |E|)` time.
 
 * hash file names and stat data too
 * handle links
+* move to a binary tree? depends on diffing algorithm
 
 ## Installation
 
